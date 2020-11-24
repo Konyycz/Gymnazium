@@ -1,0 +1,230 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navigace */
+
+nav {
+    background-color: #2463b2;
+}
+
+nav > div > img {
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+nav > div > a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    margin-left: 10px;
+    letter-spacing: 2px;
+}
+
+.navigace {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* začátek */
+
+.header {
+    background-color: #2463b2;
+    width: 100%;
+    height: 400px;
+}
+
+.header > p {
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+    font-size: 48px;
+}
+
+.header > div > p {
+    text-align: center;
+    color: white;
+    margin-top: 215px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* duvody */ 
+
+.duvody {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+
+.duvody > h2 {
+    color: #2463b2;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.card-body > img {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-body > p {
+    margin-top: 40px;
+}
+
+.circle > img {
+    height: 60px;
+    width: 60px;
+}
+
+.circle {
+    margin: auto;
+    margin-top: 20px;
+}
+
+.studentem {
+    text-align: center;
+    background-color: blue;
+    padding: 20px;
+    width: 300px;
+    border-radius: 50px;
+    margin: 50px auto;
+}
+
+.studentem > a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* aktuality */
+
+.aktuality {
+    background: #3fbffb;
+    width: 100%;
+    height: 900px;
+    margin-top: 150px;
+}
+
+.aktuality-nadpis > h2 {
+    padding: 20px;
+    color: white;
+}
+
+.aktuality-card {
+    background-color: white;
+    height: 250px;
+    width: 350px;
+    border-radius: 20px;
+    margin-right: 60px;
+}
+
+.aktuality-card > h6 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.aktuality-card > p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.doprava {
+    text-align: right;
+    padding: 20px;
+    color: white;
+}
+
+.viceaktualit {
+    text-align: center;
+    padding: 10px;
+    background-color: blue;
+    width: 200px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.viceaktualit > a {
+    color: white;
+}
+
+.viceakci {
+    text-align: center;
+    padding: 10px;
+    background-color: blue;
+    width: 200px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.viceakci > a {
+    color: white;
+}
+
+/* Sponzoři */
+
+.sponzori {
+    width: 100%;
+    height: 400px;  
+}
+
+.sponzori-nadpis {
+    padding: 40px;
+    color: blue;
+}
+
+.sponzori-obrazky > img {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+}
+
+/* kontakty */
+
+footer {
+    background-color: grey;
+    width: 100%;
+    height: 500px;
+}
+
+footer > h2 {
+    color: blue;
+    text-align: right;
+    padding: 40px;
+}
+
+footer > h5 {
+    text-align: right;
+    margin-right: 50px;
+}
+
+.kontakt {
+    text-align: right;
+    margin-right: 50px;
+}
+
+.ikonky {
+    text-align: right;
+    margin-right: 50px;
+}
