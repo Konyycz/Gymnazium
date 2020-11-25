@@ -5,27 +5,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gymnázium nad Štolou</title>
-  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" a href="css/bootstrap.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <nav>
-    <div class="logo">
+    <div>
       <img src="/img/bmw-logo-03.jpg" alt="">
     </div>
-
-    <div class="navigace">
-      <a href="">O nás</a>
-      <a href="">Lorem</a>
-      <a href="">Ipsum</a>
-      <a href="">Kontakt</a>
+    <div class="hamburger d-flex">
+      <i class="fas fa-bars fa-2x"></i>
+      <i class="fas fa-search fa-2x"></i>
     </div>
   </nav>
 
   <section class="header">
-    <p>Vítejte na stránkách Gymnázia nad Štolou</p>
-    <p>,,Studium před zlatem"</p>
+    <p>Vítejte na stránkách Gymnázia Nad Štolou</p>
+    <p>„Studium před zlatem"</p>
 
     <div>
       <p>EŽK | Jídelníček | Rozvrhy | Suplování</p>
@@ -35,8 +32,8 @@
   <section class="duvody">
     <h2>Čtyři důvody, proč studovat na naší škole</h2>
 
-    <div class="container d-flex">
-      <div class="card col-md-3">
+    <div class="container d-flex justify-content-between">
+      <div class="card karticky">
         <div class="circle">
           <img src="/img/circle-1.png" alt="">
         </div>
@@ -48,7 +45,7 @@
         </div>
       </div>
 
-      <div class="card col-md-3">
+      <div class="card karticky">
         <div class="circle">
           <img src="/img/circle-2.png" alt="">
         </div>
@@ -60,7 +57,7 @@
         </div>
       </div>
 
-      <div class="card col-md-3">
+      <div class="card karticky">
         <div class="circle">
           <img src="/img/circle-3.png" alt="">
         </div>
@@ -72,7 +69,7 @@
         </div>
       </div>
 
-      <div class="card col-md-3">
+      <div class="card karticky">
         <div class="circle">
           <img src="/img/circle-4.png" alt="">
         </div>
@@ -91,91 +88,96 @@
   </section>
 
   <section class="aktuality">
-    <div class="aktuality-nadpis">
-      <h2>Aktuality</h2>
-    </div>
-
-    <div class="container d-flex">
-      <div class="aktuality-card">
-        <h6>Lorem ipsum</h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iasculis sit amet turpis ac bibendum.
-          Vestibulum aliquet imperdiet metus sed ullamcorper. Morbi condimentum luctus congue.</p>
+    <div class="container">
+      <div class="aktuality-nadpis">
+        <h2>Aktuality</h2>
       </div>
 
-      <div class="aktuality-card">
-        <h6>Lorem ipsum</h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iasculis sit amet turpis ac bibendum.
-          Vestibulum aliquet imperdiet metus sed ullamcorper. Morbi condimentum luctus congue.</p>
+      <div class="d-flex justify-content-between">
+        <div class="aktuality-card">
+          <h6>Lorem ipsum</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iasculis sit amet turpis ac bibendum.
+            Vestibulum aliquet imperdiet metus sed ullamcorper. Morbi condimentum luctus congue.</p>
+        </div>
+
+        <div class="aktuality-card">
+          <h6>Lorem ipsum</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iasculis sit amet turpis ac bibendum.
+            Vestibulum aliquet imperdiet metus sed ullamcorper. Morbi condimentum luctus congue.</p>
+        </div>
+
+        <div class="aktuality-card">
+          <h6>Lorem ipsum</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iasculis sit amet turpis ac bibendum.
+            Vestibulum aliquet imperdiet metus sed ullamcorper. Morbi condimentum luctus congue.</p>
+        </div>
+      </div>
+      <div class="viceaktualit">
+        <a href="">Více aktualit</a>
       </div>
 
-      <div class="aktuality-card">
-        <h6>Lorem ipsum</h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iasculis sit amet turpis ac bibendum.
-          Vestibulum aliquet imperdiet metus sed ullamcorper. Morbi condimentum luctus congue.</p>
-      </div>
-    </div>
-    <div class="viceaktualit">
-      <a href="">Více aktualit</a>
-    </div>
-
-    <h2 class="doprava">Nadcházející akce</h2>
-
-    <div class="container d-flex">
-      <div class="aktuality-card">
-        <h6 class="text-right mr-4">Lorem ipsum</h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iasculis sit amet turpis ac bibendum.
-          Vestibulum aliquet imperdiet metus sed ullamcorper. Morbi condimentum luctus congue.</p>
+      <div class="aktuality-nadpis">
+        <h2 class="text-right">Nadcházející akce</h2>
       </div>
 
-      <div class="aktuality-card">
-        <h6 class="text-right mr-4">Lorem ipsum</h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iasculis sit amet turpis ac bibendum.
-          Vestibulum aliquet imperdiet metus sed ullamcorper. Morbi condimentum luctus congue.</p>
+      <div class="container d-flex justify-content-between">
+        <div class="aktuality-card">
+          <h6 class="text-right">Lorem ipsum</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iasculis sit amet turpis ac bibendum.
+            Vestibulum aliquet imperdiet metus sed ullamcorper. Morbi condimentum luctus congue.</p>
+        </div>
+
+        <div class="aktuality-card">
+          <h6 class="text-right">Lorem ipsum</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iasculis sit amet turpis ac bibendum.
+            Vestibulum aliquet imperdiet metus sed ullamcorper. Morbi condimentum luctus congue.</p>
+        </div>
+
+        <div class="aktuality-card">
+          <h6 class="text-right">Lorem ipsum</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iasculis sit amet turpis ac bibendum.
+            Vestibulum aliquet imperdiet metus sed ullamcorper. Morbi condimentum luctus congue.</p>
+        </div>
       </div>
 
-      <div class="aktuality-card">
-        <h6 class="text-right mr-4">Lorem ipsum</h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iasculis sit amet turpis ac bibendum.
-          Vestibulum aliquet imperdiet metus sed ullamcorper. Morbi condimentum luctus congue.</p>
+      <div class="viceakci">
+        <a href="">Více akcí</a>
       </div>
-    </div>
-
-    <div class="viceakci">
-      <a href="">Více akcí</a>
     </div>
   </section>
 
-  <section class="sponzori">
-    <div class="sponzori-nadpis">
-      <h2>Sponzoři</h2>
-    </div>
-    <div class="d-flex sponzori-obrazky">
-      <img src="/img/1200px-Flag_of_Europe.svg.png" alt="">
-      <img src="/img/220px-Logo_Praha.jpg" alt="">
-      <img src="/img/1200px-Flag_of_Europe.svg.png" alt="">
-      <img src="/img/220px-Logo_Praha.jpg" alt="">
+  <section class="container">
+    <div class="sponzori">
+      <div class="sponzori-nadpis">
+        <h2>Sponzoři</h2>
+      </div>
+      <div class="d-flex sponzori-obrazky">
+        <img src="/img/1200px-Flag_of_Europe.svg.png" alt="">
+        <img src="/img/220px-Logo_Praha.jpg" alt="">
+        <img src="/img/1200px-Flag_of_Europe.svg.png" alt="">
+        <img src="/img/220px-Logo_Praha.jpg" alt="">
+      </div>
     </div>
   </section>
 
   <footer>
-    <h2>Kontakty</h2>
+    <div class="container">
+      <h2>Kontakty</h2>
 
-    <h5>Gymnázium nad Štolou</h5>
-    <div class="kontakt">
-      <p>Telefon<br>
-        +420 603 478 983
-        <hr><br>
-        E-mail<br>
-        info@casurgis.cz
-        <hr><br>
-        Adresa<br>
-        Nad Štolou 1, Praha 7<br>
-        <hr>
-      </p>
-    </div>
-    <div class="ikonky">
-      <i class="fab fa-facebook-square fa-3x"></i>
-      <i class="fab fa-instagram fa-3x"></i>
+      <h5>Gymnázium nad Šotolou</h5>
+      <div class="kontakt">
+        <p>Telefon<br>
+          +420 603 478 983<br><br>
+          E-mail<br>
+          info@casurgis.cz<br><br>
+          Adresa<br>
+          Nad Štolou 1, Praha 7<br>
+        </p>
+      </div>
+      <div class="ikonky">
+        <i class="fab fa-facebook-square fa-3x"></i>
+        <i class="fab fa-instagram fa-3x"></i>
+      </div>
     </div>
   </footer>
 
