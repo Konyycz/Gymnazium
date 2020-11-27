@@ -11,12 +11,11 @@ body {
 
 .hamburger {
     color: white;
-    justify-content: center;
     align-items: center;
 }
 
 .hamburger > i {
-    margin-right: 50px;
+    margin-right: 20px;
     height: 30px;
 }
 
@@ -28,7 +27,6 @@ nav {
 }
 
 nav > img {
-    width: 160px;
     height: 60px;
     margin-top: 10px;
 }
@@ -231,6 +229,9 @@ footer {
 @media (min-width: 768px) {
     .kontakty {
         justify-content: flex-end;
+    }
+    .hamburger > i {
+        margin-right: 50px;
     }
 }
 
