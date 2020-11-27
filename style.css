@@ -1,67 +1,70 @@
+* {
+    transition: all 0.3s ease-in-out;
+}
+
 body {
     margin: 0px;
     padding: 0px;
 }
 
-/* navigace */
+/* Navigace */
 
 .hamburger {
     color: white;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
 }
 
 .hamburger > i {
     margin-right: 50px;
+    height: 30px;
 }
 
 nav {
     background-color: #2463b2;
+    height: 70px;
+    justify-content: space-between;
+    line-height: 60px;
 }
 
-nav > div > img {
-    width: 60px;
+nav > img {
+    width: 160px;
     height: 60px;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
-nav > div > a {
-    text-decoration: none;
-    cursor: pointer;
-    color: white;
-    margin-left: 10px;
-    letter-spacing: 2px;
-}
-
-.navigace {
-    display: flex;
-    justify-content: flex-end;
-}
-
-/* začátek */
+/* Header */
 
 .header {
     background-color: #2463b2;
     width: 100%;
-    height: 400px;
 }
 
-.header > p {
-    margin-top: 0px;
+.header > h1 {
     color: white;
     text-align: center;
-    font-size: 48px;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.header > h3 {
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .header > div > p {
     text-align: center;
     color: white;
-    margin-top: 215px;
+    margin-top: 250px;
     font-weight: bold;
     letter-spacing: 2px;
 }
 
-/* duvody */ 
+/* Důvody */ 
 
 .duvody {
     width: 100%;
@@ -69,14 +72,14 @@ nav > div > a {
 }
 
 .duvody > h2 {
-    color: #2463b2;
+    color: #05347a;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
+    font-weight: bold;
 }
 
 .karticky {
-    width: 250px;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
@@ -109,10 +112,10 @@ nav > div > a {
 
 .studentem {
     text-align: center;
-    background-color: blue;
-    padding: 20px;
-    width: 300px;
-    border-radius: 50px;
+    background-color: #05347a;
+    padding: 15px;
+    width: 350px;
+    border-radius: 25px;
     margin: 50px auto;
 }
 
@@ -124,123 +127,111 @@ nav > div > a {
     letter-spacing: 1px;
 }
 
-/* aktuality */
+/* Aktuality */
 
 .aktuality {
     background: #3fbffb;
     width: 100%;
-    height: 900px;
-    padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.aktuality-nadpis > h2 {
+.nadpisky > h2 {
     color: white;
     border-bottom: 4px solid white;
     margin-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 10px;
 }
 
 .aktuality-card {
     background-color: white;
-    width: 350px;
     border-radius: 20px;
     padding: 20px;
 }
 
 .aktuality-card > p {
-
     margin-top: 20px;
     text-align: justify;
 }
 
-.viceaktualit {
+.aktuality-button {
     text-align: center;
     padding: 10px;
-    background-color: blue;
+    background-color: #073681;
     width: 200px;
     margin: auto;
     margin-top: 40px;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
-.viceaktualit > a {
+.aktuality-button > a {
     color: white;
-}
-
-.viceakci {
-    text-align: center;
-    padding: 10px;
-    background-color: blue;
-    width: 200px;
-    margin: auto;
-    margin-top: 40px;
-    border-radius: 20px;
-}
-
-.viceakci > a {
-    color: white;
+    font-size: 18px;
 }
 
 /* Sponzoři */
 
 .sponzori {
-    width: 100%;
-    height: 400px;  
+    padding: 30px 0px 50px 0px;
 }
 
-.sponzori-nadpis {
-    margin-top: 40px;
-    margin-bottom: 50px;
-    color: blue;
-    border-bottom: 4px solid blue;
+.nadpisky-modre > h2 {
+    color: #06367F;
+    border-bottom: 4px solid #06367F;
 }
 
 .sponzori-obrazky > img {
-    width: 250px;
-    height: 150px;
-    margin: auto;
+    width: 25%;
+    height: 200px;
 }
 
-/* kontakty */
+/* Kontakty */
 
 footer {
     background-color: #dbe8f1;
     width: 100%;
-    height: 500px;
+    padding-bottom: 50px;
 }
 
-footer > div > h2 {
-    color: #03347a;
-    text-align: right;
-    padding: 40px;
-    border-bottom: 4px solid #03347a;
+.kontakty {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #06367F;
 }
 
-footer > div > h5 {
-    text-align: right;
-    color: #03347a;
+.kontakty-mini {
+    text-align: center;
 }
 
-.kontakt {
-    text-align: right;
-    color: #03347a;
-    border-bottom: 2px solid #03347a;
+.kontakty-mini > h5 {
+    padding: 15px 0px;
+}
+
+.carka {
+    width: 100%;
+    height: 2px;
+    background-color: #06367F;
+    margin: 10px 0px;
 }
 
 .ikonky {
-    text-align: right;
-    color: #03347a;
+    padding-top: 20px;
 }
 
+.ikonky > i {
+    margin: 0px 10px;
+}
 
+/* Responzivita */
 
 @media (min-width: 576px) {
-
 }
 
 @media (min-width: 768px) {
+    .kontakty {
+        justify-content: flex-end;
+    }
 }
 
 @media (min-width: 992px) {
